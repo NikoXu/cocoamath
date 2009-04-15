@@ -1,0 +1,133 @@
+// !$*UTF8*$!
+{
+	03CF1F460F3A57F2001F785F /* Vector.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 264}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 176}";
+		};
+	};
+	03EFC0050EFD9D30005B6918 /* Matrix.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {564, 2086}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{392, 423}";
+		};
+	};
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = 8DC2EF4F0486A6940098B216 /* Math */;
+		codeSenseManager = 49ECCFA20F95236F008B1EC5 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					231,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					229,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 261432171;
+			PBXWorkspaceStateSaveDate = 261432171;
+		};
+		perUserProjectItems = {
+			49ECCFEF0F954A7E008B1EC5 /* PBXTextBookmark */ = 49ECCFEF0F954A7E008B1EC5 /* PBXTextBookmark */;
+			49ECCFF00F954A7E008B1EC5 /* PBXBookmark */ = 49ECCFF00F954A7E008B1EC5 /* PBXBookmark */;
+			49ECCFF10F954A7E008B1EC5 /* PBXTextBookmark */ = 49ECCFF10F954A7E008B1EC5 /* PBXTextBookmark */;
+			49ECCFF20F954A7E008B1EC5 /* PBXTextBookmark */ = 49ECCFF20F954A7E008B1EC5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 49ECCFA10F95236F008B1EC5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	49ECCFA10F95236F008B1EC5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	49ECCFA20F95236F008B1EC5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	49ECCFEF0F954A7E008B1EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03CF1F460F3A57F2001F785F /* Vector.m */;
+		name = "Vector.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 176;
+		vrLoc = 0;
+	};
+	49ECCFF00F954A7E008B1EC5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 03EFC0050EFD9D30005B6918 /* Matrix.m */;
+	};
+	49ECCFF10F954A7E008B1EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03CF1F460F3A57F2001F785F /* Vector.m */;
+		name = "Vector.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 176;
+		vrLoc = 0;
+	};
+	49ECCFF20F954A7E008B1EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03EFC0050EFD9D30005B6918 /* Matrix.m */;
+		name = "Matrix.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 392;
+	};
+	8DC2EF4F0486A6940098B216 /* Math */ = {
+		activeExec = 0;
+	};
+}

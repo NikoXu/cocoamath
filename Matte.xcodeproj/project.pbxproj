@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03361CE50F0CF9DE00868EC4 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 03361CE40F0CF9DE00868EC4 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03CF1D780F39F0AB001F785F /* BiQuaternion.h in Headers */ = {isa = PBXBuildFile; fileRef = 03CF1D760F39F0AB001F785F /* BiQuaternion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03CF1D790F39F0AB001F785F /* BiQuaternion.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CF1D770F39F0AB001F785F /* BiQuaternion.m */; };
+		03CF1D9B0F39F27E001F785F /* BiQuaternionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CF1D9A0F39F27E001F785F /* BiQuaternionOperations.m */; };
+		03CF1F470F3A57F2001F785F /* Vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 03CF1F450F3A57F2001F785F /* Vector.h */; };
+		03CF1F480F3A57F2001F785F /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CF1F460F3A57F2001F785F /* Vector.m */; };
+		03EFC0070EFD9D30005B6918 /* Matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EFC0040EFD9D30005B6918 /* Matrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03EFC0080EFD9D30005B6918 /* Matrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFC0050EFD9D30005B6918 /* Matrix.m */; };
+		03EFC0090EFD9D30005B6918 /* MatrixOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFC0060EFD9D30005B6918 /* MatrixOperations.m */; };
+		03EFC1650EFD9E82005B6918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EFC1640EFD9E82005B6918 /* Foundation.framework */; };
+		03EFC1A90EFDA65E005B6918 /* Matte.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* Matte.framework */; };
+		03EFC28E0EFDBA3D005B6918 /* Quaternion.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EFC28C0EFDBA3D005B6918 /* Quaternion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03EFC28F0EFDBA3D005B6918 /* Quaternion.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFC28D0EFDBA3D005B6918 /* Quaternion.m */; };
+		03EFC2C70EFF0CB8005B6918 /* QuaternionOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFC2C60EFF0CB8005B6918 /* QuaternionOperations.m */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03EFC1A80EFDA621005B6918 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Frameworks";
+			dstSubfolderSpec = 0;
+			files = (
+				03EFC1A90EFDA65E005B6918 /* Matte.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03361CE40F0CF9DE00868EC4 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		03CF1D760F39F0AB001F785F /* BiQuaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiQuaternion.h; sourceTree = "<group>"; };
+		03CF1D770F39F0AB001F785F /* BiQuaternion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiQuaternion.m; sourceTree = "<group>"; };
+		03CF1D9A0F39F27E001F785F /* BiQuaternionOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiQuaternionOperations.m; sourceTree = "<group>"; };
+		03CF1F450F3A57F2001F785F /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		03CF1F460F3A57F2001F785F /* Vector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector.m; sourceTree = "<group>"; };
+		03EFC0040EFD9D30005B6918 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		03EFC0050EFD9D30005B6918 /* Matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix.m; sourceTree = "<group>"; };
+		03EFC0060EFD9D30005B6918 /* MatrixOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatrixOperations.m; sourceTree = "<group>"; };
+		03EFC1640EFD9E82005B6918 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03EFC28C0EFDBA3D005B6918 /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
+		03EFC28D0EFDBA3D005B6918 /* Quaternion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quaternion.m; sourceTree = "<group>"; };
+		03EFC2C60EFF0CB8005B6918 /* QuaternionOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuaternionOperations.m; sourceTree = "<group>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32DBCF5E0370ADEE00C91783 /* Matte_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matte_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* Matte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Matte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EFC1650EFD9E82005B6918 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* Matte.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03CF1F290F3A57D1001F785F /* Vectors */ = {
+			isa = PBXGroup;
+			children = (
+				03CF1F450F3A57F2001F785F /* Vector.h */,
+				03CF1F460F3A57F2001F785F /* Vector.m */,
+			);
+			name = Vectors;
+			sourceTree = "<group>";
+		};
+		03EFC0030EFD9D30005B6918 /* Matrices */ = {
+			isa = PBXGroup;
+			children = (
+				03EFC0040EFD9D30005B6918 /* Matrix.h */,
+				03EFC0050EFD9D30005B6918 /* Matrix.m */,
+				03EFC0060EFD9D30005B6918 /* MatrixOperations.m */,
+			);
+			name = Matrices;
+			sourceTree = "<group>";
+		};
+		03EFC2890EFDB9E0005B6918 /* Quaternions */ = {
+			isa = PBXGroup;
+			children = (
+				03EFC28C0EFDBA3D005B6918 /* Quaternion.h */,
+				03EFC28D0EFDBA3D005B6918 /* Quaternion.m */,
+				03EFC2C60EFF0CB8005B6918 /* QuaternionOperations.m */,
+				03CF1D760F39F0AB001F785F /* BiQuaternion.h */,
+				03CF1D770F39F0AB001F785F /* BiQuaternion.m */,
+				03CF1D9A0F39F27E001F785F /* BiQuaternionOperations.m */,
+			);
+			name = Quaternions;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* Matte */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = Matte;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03361CE40F0CF9DE00868EC4 /* Constants.h */,
+				03CF1F290F3A57D1001F785F /* Vectors */,
+				03EFC2890EFDB9E0005B6918 /* Quaternions */,
+				03EFC0030EFD9D30005B6918 /* Matrices */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03EFC1640EFD9E82005B6918 /* Foundation.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* Matte_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EFC0070EFD9D30005B6918 /* Matrix.h in Headers */,
+				03EFC28E0EFDBA3D005B6918 /* Quaternion.h in Headers */,
+				03361CE50F0CF9DE00868EC4 /* Constants.h in Headers */,
+				03CF1D780F39F0AB001F785F /* BiQuaternion.h in Headers */,
+				03CF1F470F3A57F2001F785F /* Vector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* Math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Math" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+				03EFC1A80EFDA621005B6918 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Math;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = Matte;
+			productReference = 8DC2EF5B0486A6940098B216 /* Matte.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Matte" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* Matte */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* Math */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EFC0080EFD9D30005B6918 /* Matrix.m in Sources */,
+				03EFC0090EFD9D30005B6918 /* MatrixOperations.m in Sources */,
+				03EFC28F0EFDBA3D005B6918 /* Quaternion.m in Sources */,
+				03EFC2C70EFF0CB8005B6918 /* QuaternionOperations.m in Sources */,
+				03CF1D790F39F0AB001F785F /* BiQuaternion.m in Sources */,
+				03CF1D9B0F39F27E001F785F /* BiQuaternionOperations.m in Sources */,
+				03CF1F480F3A57F2001F785F /* Vector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Matte_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = Matte;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Matte_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = Math;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Matte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
